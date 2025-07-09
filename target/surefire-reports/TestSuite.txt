@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 76.485 sec <<< FAILURE! - in TestSuite
+setup(com.lambdatest.TestNGTodo2)  Time elapsed: 69.874 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.28 seconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LT-MBP-036.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo2.setup(TestNGTodo2.java:106)
+
+setup(com.lambdatest.TestNGTodo3)  Time elapsed: 1.374 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.73 seconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LT-MBP-036.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo3.setup(TestNGTodo3.java:106)
+

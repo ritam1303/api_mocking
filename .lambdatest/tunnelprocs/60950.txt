@@ -1,0 +1,1 @@
+{"status":"SUCCESS","data":{"id":6409450,"localProxyPort":"60962","tunnelName":"basicTestcom.lambdatest.TestNGTodo3","environment":"prod","version":"3.2.16","mode":"ssh","sshConnType":"over_22"}}

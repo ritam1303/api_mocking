@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="76.485" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.13+0"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ritamg/Downloads/mock_headers"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ritamg/Downloads/mock_headers"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.13+0"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/jq/88j9fdxj7mn139__dnr_kwmh0000gq/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="suiteXmlFile" value="parallel.xml"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.9.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ritamg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.9.9/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.9.9/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ritamg"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ritamg"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DsuiteXmlFile=parallel.xml"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.13"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.9.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="setup" classname="com.lambdatest.TestNGTodo2" time="69.874">
+    <failure message="Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.28 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;LT-MBP-036.local&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;17.0.13&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.28 seconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LT-MBP-036.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo2.setup(TestNGTodo2.java:106)
+</failure>
+    <system-out><![CDATA[Found Existing Tunnel Package
+Found Existing Tunnel Package
+Tunnel Verified
+Tunnel Verified
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Checking Tunnel Status
+Checking Tunnel Status
+Tunnel not yet started. Retrying
+Tunnel not yet started. Retrying
+Riles copied to .....basicTest_com.lambdatest.TestNGTodo2.py
+Riles copied to .....basicTest_com.lambdatest.TestNGTodo3.py
+Proxy server started on port 8606
+Proxy server started on port 8607
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="basicTest" classname="com.lambdatest.TestNGTodo2" time="0">
+    <skipped message="Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.28 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;LT-MBP-036.local&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;17.0.13&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lambdatest.TestNGTodo2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.lambdatest.TestNGTodo3" time="1.374">
+    <failure message="Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.73 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;LT-MBP-036.local&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;17.0.13&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.73 seconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LT-MBP-036.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo3.setup(TestNGTodo3.java:106)
+</failure>
+  </testcase>
+  <testcase name="basicTest" classname="com.lambdatest.TestNGTodo3" time="0">
+    <skipped message="Either tunnel is not runing or disconnected. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.73 seconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;LT-MBP-036.local&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;17.0.13&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lambdatest.TestNGTodo3" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
