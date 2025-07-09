@@ -31,8 +31,8 @@ public class TestNGTodo2 {
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws Exception {
 
-        String username = "gchawhan10";
-        String authkey = "e0LlLtwPOwFxS1RcCyuenLu8vmO6Xpl3vO0Ppx4lNqiAuQBPYU";
+        String username = "";
+        String authkey = "";
         String hub = "@hub.lambdatest.com/wd/hub";
 
         int port = PortAllocator.getNextPort();
